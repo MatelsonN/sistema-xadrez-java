@@ -1,9 +1,12 @@
 package aplicacao;
 
+import xadrez.PartidaDeXadrez;
+
 public class Programa {
 
     public static void main(String[] args) {
 
-        System.out.println("Hello world!");
+        PartidaDeXadrez partidaDeXadrez = new PartidaDeXadrez();
+        UI.impressaoTabuleiro(partidaDeXadrez.pegarPecas());
     }
 }
