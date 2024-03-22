@@ -2,8 +2,8 @@ package jogodetabuleiro;
 
 public class Peca {
 
-    private Posicao posicao;
-    protected Tabuleiro tabuleiro;
+    protected Posicao posicao;
+    private Tabuleiro tabuleiro;
 
     public Peca(Tabuleiro tabuleiro) {
         this.tabuleiro = tabuleiro;
