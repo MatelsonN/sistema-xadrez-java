@@ -15,3 +15,9 @@ O
 src/xadrez/PartidaDeXadrez.java,0\0\001dc9603a73c4c5ca87c2e0da7288ec0cab01eb
 E
 src/aplicacao/UI.java,e\1\e1f7681a1a5bfb2977143808ab4ddac90cb1afda
+I
+src/xadrez/peca/Rook.java,8\3\83ffc806963dd57fc8f52bc4ef27451d239eb649
+I
+src/xadrez/peca/King.java,5\9\598d41b54f6febc0d6cfc5327089c41d9db7886d
+[
++src/jogodetabuleiro/TabuleiroException.java,d\e\de6d46126ba3e692ed6c081cfaae4d654875f57b
