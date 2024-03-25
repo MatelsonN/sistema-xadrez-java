@@ -55,7 +55,7 @@ public class Tabuleiro {
     }
 
     public boolean temUmaPeca(Posicao posicao) {
-        if (posicaoExiste(posicao)) {
+        if (!posicaoExiste(posicao)) {
             throw new TabuleiroException("Já existe uma peça nessa posição " + posicao);
         }
         return peca(posicao) != null;

@@ -21,3 +21,7 @@ I
 src/xadrez/peca/King.java,5\9\598d41b54f6febc0d6cfc5327089c41d9db7886d
 [
 +src/jogodetabuleiro/TabuleiroException.java,d\e\de6d46126ba3e692ed6c081cfaae4d654875f57b
+O
+src/xadrez/XadrezException.java,2\c\2c7dc2562903204a1a2025c5f06d16b636f9e2b0
+M
+src/xadrez/XadrezPosicao.java,2\9\29ee2cfb5b1e7666f08e604847e08f0d7a435bbe
