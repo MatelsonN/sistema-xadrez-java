@@ -28,8 +28,18 @@ public class PartidaDeXadrez {
     }
 
     private void configuracaoInicial() {
-        colocarNovaPeca('b', 6, new Rook(tabuleiro, Cor.BRANCO));
-        colocarNovaPeca('e', 8, new King(tabuleiro, Cor.PRETO));
-        colocarNovaPeca('e', 1, new King(tabuleiro, Cor.BRANCO));
+        colocarNovaPeca('c', 1, new Rook(tabuleiro, Cor.BRANCO));
+        colocarNovaPeca('c', 2, new Rook(tabuleiro, Cor.BRANCO));
+        colocarNovaPeca('d', 2, new Rook(tabuleiro, Cor.BRANCO));
+        colocarNovaPeca('e', 2, new Rook(tabuleiro, Cor.BRANCO));
+        colocarNovaPeca('e', 1, new Rook(tabuleiro, Cor.BRANCO));
+        colocarNovaPeca('d', 1, new King(tabuleiro, Cor.BRANCO));
+
+        colocarNovaPeca('c', 7, new Rook(tabuleiro, Cor.PRETO));
+        colocarNovaPeca('c', 8, new Rook(tabuleiro, Cor.PRETO));
+        colocarNovaPeca('d', 7, new Rook(tabuleiro, Cor.PRETO));
+        colocarNovaPeca('e', 7, new Rook(tabuleiro, Cor.PRETO));
+        colocarNovaPeca('e', 8, new Rook(tabuleiro, Cor.PRETO));
+        colocarNovaPeca('d', 8, new King(tabuleiro, Cor.PRETO));
     }
 }
