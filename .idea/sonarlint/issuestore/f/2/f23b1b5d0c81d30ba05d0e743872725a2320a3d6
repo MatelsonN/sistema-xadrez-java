@@ -1,0 +1,11 @@
+
+D
+java:S2189""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ8ç˜ÿÜç1
+^
+java:S1854"ARemove this useless assignment to local variable "pecaCapturada".(­ğ‰ï8é¯ùÜç1
+L	java:S106"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8í¯ùÜç1
+L	java:S106"+Replace this use of System.out by a logger.(«Ç‹úÿÿÿÿ8í¯ùÜç1
+L	java:S106"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8î¯ùÜç1
+F	java:S106"+Replace this use of System.out by a logger.(Î’8î¯ùÜç1
+O
+java:S1481"2Remove this unused "pecaCapturada" local variable.(­ğ‰ï8ï¯ùÜç1
