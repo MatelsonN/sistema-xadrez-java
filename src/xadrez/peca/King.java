@@ -14,4 +14,10 @@ public class King extends PecaDeXadrez {
     public String toString() {
         return "K";
     }
+
+    @Override
+    public boolean[][] possiveisMovimentos() {
+        boolean[][] matriz = new boolean[getTabuleiro().getLinhas()][getTabuleiro().getColunas()];
+        return matriz;
+    }
 }
