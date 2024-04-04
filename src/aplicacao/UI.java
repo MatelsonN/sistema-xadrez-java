@@ -1,6 +1,7 @@
 package aplicacao;
 
 import xadrez.Cor;
+import xadrez.PartidaDeXadrez;
 import xadrez.PecaDeXadrez;
 import xadrez.XadrezPosicao;
 
@@ -45,6 +46,13 @@ public class UI {
         catch (RuntimeException e) {
             throw new InputMismatchException("Erro instanciando a posição. Valores válidos são de a1 até h8");
         }
+    }
+
+    public static void imprimirPartida(PartidaDeXadrez partidaDeXadrez) {
+        impressaoTabuleiro(partidaDeXadrez.pegarPecas());
+        System.out.println();
+        System.out.println("Turno : " + partidaDeXadrez.getTurno());
+        System.out.println("Esperando jogador: " + partidaDeXadrez.getJogadorAtual());
     }
 
     public static void impressaoTabuleiro(PecaDeXadrez[][] pecas) {
