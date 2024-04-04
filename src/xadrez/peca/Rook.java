@@ -22,7 +22,7 @@ public class Rook extends PecaDeXadrez {
 
         Posicao pos = new Posicao(0, 0);
 
-        //para cima
+        // movimento para cima
         pos.definirValores(posicao.getLinha() - 1, posicao.getColuna());
         while (getTabuleiro().posicaoExiste(pos) && !getTabuleiro().temUmaPeca(pos)) {
             matriz[pos.getLinha()][pos.getColuna()] = true;
@@ -32,7 +32,17 @@ public class Rook extends PecaDeXadrez {
             matriz[pos.getLinha()][pos.getColuna()] = true;
         }
 
-        //para esquerda
+        // movimento para baixo
+        pos.definirValores(posicao.getLinha() + 1, posicao.getColuna());
+        while (getTabuleiro().posicaoExiste(pos) && !getTabuleiro().temUmaPeca(pos)) {
+            matriz[pos.getLinha()][pos.getColuna()] = true;
+            pos.setLinha(pos.getLinha() + 1);
+        }
+        if (getTabuleiro().posicaoExiste(pos) && getTabuleiro().temUmaPeca(pos)) {
+            matriz[pos.getLinha()][pos.getColuna()] = true;
+        }
+
+        // movimento para esquerda
         pos.definirValores(posicao.getLinha(), posicao.getColuna() - 1);
         while (getTabuleiro().posicaoExiste(pos) && !getTabuleiro().temUmaPeca(pos)) {
             matriz[pos.getLinha()][pos.getColuna()] = true;
@@ -42,7 +52,7 @@ public class Rook extends PecaDeXadrez {
             matriz[pos.getLinha()][pos.getColuna()] = true;
         }
 
-        //para direita
+        // movimento para direita
         pos.definirValores(posicao.getLinha(), posicao.getColuna() + 1);
         while (getTabuleiro().posicaoExiste(pos) && !getTabuleiro().temUmaPeca(pos)) {
             matriz[pos.getLinha()][pos.getColuna()] = true;
@@ -52,15 +62,6 @@ public class Rook extends PecaDeXadrez {
             matriz[pos.getLinha()][pos.getColuna()] = true;
         }
 
-        //para baixo
-        pos.definirValores(posicao.getLinha() + 1, posicao.getColuna());
-        while (getTabuleiro().posicaoExiste(pos) && !getTabuleiro().temUmaPeca(pos)) {
-            matriz[pos.getLinha()][pos.getColuna()] = true;
-            pos.setLinha(pos.getLinha() + 1);
-        }
-        if (getTabuleiro().posicaoExiste(pos) && getTabuleiro().temUmaPeca(pos)) {
-            matriz[pos.getLinha()][pos.getColuna()] = true;
-        }
         return matriz;
     }
 }
