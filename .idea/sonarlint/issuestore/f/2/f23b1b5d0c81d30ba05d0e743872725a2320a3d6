@@ -1,15 +1,11 @@
 
 D
-java:S2189""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ8•‚¦ê1
-^
-java:S1854""ARemove this useless assignment to local variable "pecaCapturada".(­ğ‰ï8Â«¥¥ê1
+java:S2189""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ8Ğù§•ë1
 f
-java:S2147("DCombine this catch with the one at line 36, which has the same body.(±…Áÿÿÿÿÿ8Ç«¥¥ê1
-L	java:S106"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8È«¥¥ê1
-L	java:S106"+Replace this use of System.out by a logger.(«Ç‹úÿÿÿÿ8È«¥¥ê1
-L	java:S106"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8É«¥¥ê1
-F	java:S106"+Replace this use of System.out by a logger.(Î’8Ê«¥¥ê1
-O
-java:S1481""2Remove this unused "pecaCapturada" local variable.(­ğ‰ï8Ê«¥¥ê1
-L	java:S106%"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8Ë«¥¥ê1
-L	java:S106)"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8Ì«¥¥ê1
+java:S2147/"DCombine this catch with the one at line 43, which has the same body.(±…Áÿÿÿÿÿ8Ç«¥¥ê1
+L	java:S106"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8È«¥¥ê1
+L	java:S106"+Replace this use of System.out by a logger.(«Ç‹úÿÿÿÿ8È«¥¥ê1
+L	java:S106!"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8É«¥¥ê1
+F	java:S106""+Replace this use of System.out by a logger.(Î’8Ê«¥¥ê1
+L	java:S106,"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8Ë«¥¥ê1
+L	java:S1060"+Replace this use of System.out by a logger.(©şêÜúÿÿÿÿ8Ì«¥¥ê1
