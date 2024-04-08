@@ -4,6 +4,7 @@ import jogodetabuleiro.Peca;
 import jogodetabuleiro.Posicao;
 import jogodetabuleiro.Tabuleiro;
 import xadrez.peca.King;
+import xadrez.peca.Pawn;
 import xadrez.peca.Rook;
 
 import java.util.ArrayList;
@@ -194,11 +195,29 @@ public class PartidaDeXadrez {
     }
 
     private void configuracaoInicial() {
-        colocarNovaPeca('h', 7, new Rook(tabuleiro, Cor.BRANCO));
-        colocarNovaPeca('d', 1, new Rook(tabuleiro, Cor.BRANCO));
+        colocarNovaPeca('a', 1, new Rook(tabuleiro, Cor.BRANCO));
         colocarNovaPeca('e', 1, new King(tabuleiro, Cor.BRANCO));
+        colocarNovaPeca('h', 1, new Rook(tabuleiro, Cor.BRANCO));
+        colocarNovaPeca('a', 2, new Pawn(tabuleiro, Cor.BRANCO));
+        colocarNovaPeca('b', 2, new Pawn(tabuleiro, Cor.BRANCO));
+        colocarNovaPeca('c', 2, new Pawn(tabuleiro, Cor.BRANCO));
+        colocarNovaPeca('d', 2, new Pawn(tabuleiro, Cor.BRANCO));
+        colocarNovaPeca('e', 2, new Pawn(tabuleiro, Cor.BRANCO));
+        colocarNovaPeca('f', 2, new Pawn(tabuleiro, Cor.BRANCO));
+        colocarNovaPeca('g', 2, new Pawn(tabuleiro, Cor.BRANCO));
+        colocarNovaPeca('h', 2, new Pawn(tabuleiro, Cor.BRANCO));
 
-        colocarNovaPeca('b', 8, new Rook(tabuleiro, Cor.PRETO));
-        colocarNovaPeca('a', 8, new King(tabuleiro, Cor.PRETO));
+
+        colocarNovaPeca('a', 8, new Rook(tabuleiro, Cor.PRETO));
+        colocarNovaPeca('e', 8, new King(tabuleiro, Cor.PRETO));
+        colocarNovaPeca('h', 8, new Rook(tabuleiro, Cor.PRETO));
+        colocarNovaPeca('a', 7, new Pawn(tabuleiro, Cor.PRETO));
+        colocarNovaPeca('b', 7, new Pawn(tabuleiro, Cor.PRETO));
+        colocarNovaPeca('c', 7, new Pawn(tabuleiro, Cor.PRETO));
+        colocarNovaPeca('d', 7, new Pawn(tabuleiro, Cor.PRETO));
+        colocarNovaPeca('e', 7, new Pawn(tabuleiro, Cor.PRETO));
+        colocarNovaPeca('f', 7, new Pawn(tabuleiro, Cor.PRETO));
+        colocarNovaPeca('g', 7, new Pawn(tabuleiro, Cor.PRETO));
+        colocarNovaPeca('h', 7, new Pawn(tabuleiro, Cor.PRETO));
     }
 }
