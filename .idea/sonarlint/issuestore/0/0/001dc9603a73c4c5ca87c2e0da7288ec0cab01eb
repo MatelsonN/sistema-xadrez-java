@@ -1,0 +1,7 @@
+
+D
+java:S1125F"(Remove the unnecessary boolean literals.(³å®v8­Şé–ë1
+u
+java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(Ş£”¶ÿÿÿÿÿ8Ú’º–ë1
+u
+java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(æä®Çûÿÿÿÿ8İ’º–ë1
