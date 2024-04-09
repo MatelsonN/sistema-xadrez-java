@@ -3,6 +3,7 @@ package xadrez;
 import jogodetabuleiro.Peca;
 import jogodetabuleiro.Posicao;
 import jogodetabuleiro.Tabuleiro;
+import xadrez.peca.Bishop;
 import xadrez.peca.King;
 import xadrez.peca.Pawn;
 import xadrez.peca.Rook;
@@ -196,7 +197,9 @@ public class PartidaDeXadrez {
 
     private void configuracaoInicial() {
         colocarNovaPeca('a', 1, new Rook(tabuleiro, Cor.BRANCO));
+        colocarNovaPeca('c', 1, new Bishop(tabuleiro, Cor.BRANCO));
         colocarNovaPeca('e', 1, new King(tabuleiro, Cor.BRANCO));
+        colocarNovaPeca('f', 1, new Bishop(tabuleiro, Cor.BRANCO));
         colocarNovaPeca('h', 1, new Rook(tabuleiro, Cor.BRANCO));
         colocarNovaPeca('a', 2, new Pawn(tabuleiro, Cor.BRANCO));
         colocarNovaPeca('b', 2, new Pawn(tabuleiro, Cor.BRANCO));
@@ -209,7 +212,9 @@ public class PartidaDeXadrez {
 
 
         colocarNovaPeca('a', 8, new Rook(tabuleiro, Cor.PRETO));
+        colocarNovaPeca('c', 8, new Bishop(tabuleiro, Cor.PRETO));
         colocarNovaPeca('e', 8, new King(tabuleiro, Cor.PRETO));
+        colocarNovaPeca('f', 8, new Bishop(tabuleiro, Cor.PRETO));
         colocarNovaPeca('h', 8, new Rook(tabuleiro, Cor.PRETO));
         colocarNovaPeca('a', 7, new Pawn(tabuleiro, Cor.PRETO));
         colocarNovaPeca('b', 7, new Pawn(tabuleiro, Cor.PRETO));

@@ -25,3 +25,7 @@ O
 src/xadrez/XadrezException.java,2\c\2c7dc2562903204a1a2025c5f06d16b636f9e2b0
 M
 src/xadrez/XadrezPosicao.java,2\9\29ee2cfb5b1e7666f08e604847e08f0d7a435bbe
+I
+src/xadrez/peca/Pawn.java,0\9\095f4d130cd67ba8a205a5f0e6d7a5d96c6422b7
+K
+src/xadrez/peca/Bishop.java,1\e\1e2ef4b839fd67a289bff68a3a2405209904cdbd

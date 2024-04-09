@@ -45,7 +45,7 @@ public class Pawn extends PecaDeXadrez {
                 matriz[pos.getLinha()][pos.getColuna()] = true;
             }
             pos.definirValores(posicao.getLinha() + 2, posicao.getColuna());
-            Posicao pos2 = new Posicao(pos.getLinha() + 1, posicao.getColuna());
+            Posicao pos2 = new Posicao(pos.getLinha() -1, posicao.getColuna());
             if (getTabuleiro().posicaoExiste(pos) &&
                     !getTabuleiro().temUmaPeca(pos) &&
                     getTabuleiro().posicaoExiste(pos2) &&

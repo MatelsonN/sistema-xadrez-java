@@ -1,7 +1,13 @@
 
 D
-java:S1125F"(Remove the unnecessary boolean literals.(³å®v8­Şé–ë1
+java:S1125M"(Remove the unnecessary boolean literals.(³å®v8Š½ıéë1
 u
-java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(Ş£”¶ÿÿÿÿÿ8Ú’º–ë1
+java:S6204‘"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(Ş£”¶ÿÿÿÿÿ8½ıéë1
 u
-java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(æä®Çûÿÿÿÿ8İ’º–ë1
+java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(æä®Çûÿÿÿÿ8‘½ıéë1
+p
+java:S3776§"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(¦§Éú8’½ıéë1
+u
+java:S6204¬"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(Ş£”¶ÿÿÿÿÿ8’½ıéë1
+T
+java:S1144§"6Remove this unused private "testandoCkeckMate" method.(¦§Éú8—½ıéë1
