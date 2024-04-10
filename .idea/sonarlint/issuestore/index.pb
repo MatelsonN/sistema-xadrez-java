@@ -29,3 +29,7 @@ I
 src/xadrez/peca/Pawn.java,0\9\095f4d130cd67ba8a205a5f0e6d7a5d96c6422b7
 K
 src/xadrez/peca/Bishop.java,1\e\1e2ef4b839fd67a289bff68a3a2405209904cdbd
+K
+src/xadrez/peca/Knight.java,3\c\3c0a07c4144d78bbd866d7b71db3f911134899a4
+J
+src/xadrez/peca/Queen.java,8\7\878fd048f2a323376042590ede865436bbbf3324

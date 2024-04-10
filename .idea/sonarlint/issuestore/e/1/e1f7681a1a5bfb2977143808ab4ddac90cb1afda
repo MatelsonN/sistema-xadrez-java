@@ -34,3 +34,5 @@ L	java:S106y"+Replace this use of System.out by a logger.(Áã¼ûÿÿÿÿ8ãÎèë1
 L	java:S106z"+Replace this use of System.out by a logger.(‡¤¼ùÿÿÿÿ8ãÎèë1
 L	java:S106{"+Replace this use of System.out by a logger.(ŞÆÑæüÿÿÿÿ8ãÎèë1
 L	java:S106|"+Replace this use of System.out by a logger.(î¡¼ëıÿÿÿÿ8ãÎèë1
+Q
+java:S1128"/Remove this unused import 'java.sql.SQLOutput'.(ê¤òÃùÿÿÿÿ8¿ã‘ì1
