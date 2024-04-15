@@ -42,7 +42,12 @@ public class Programa {
 
                 if (partidaDeXadrez.getPromocao() != null) {
                     System.out.print("Quer promover para qual peça (B/N/R/Q): ");
-                    String tipo = leitura.nextLine();
+                    String tipo = leitura.nextLine().toUpperCase();
+                    while (!tipo.equals("B") && !tipo.equals("N") && !tipo.equals("R") && !tipo.equals("Q")) {
+                        partidaDeXadrez.trocarPromocaoDaPeca(tipo);
+                        System.out.print("Valor inválido! Quer promover para qual peça (B/N/R/Q): ");
+                        tipo = leitura.nextLine().toUpperCase();
+                    }
                     partidaDeXadrez.trocarPromocaoDaPeca(tipo);
                 }
             }
